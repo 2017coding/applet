@@ -1,28 +1,23 @@
 {
-	"name" : "lyh-proj",
-	"appid" : "__UNI__93E2A80",
+	"name": "养一只花",
+	"appid": "",
 	"description": "",
 	"versionName": "1.0.0",
 	"versionCode": "100",
 	"transformPx": false,
-    /* 5+App特有相关 */
-	"app-plus": {
+	"app-plus": { /* 5+App特有相关 */
 		"usingComponents": true,
-    "nvueCompiler": "uni-app",
 		"splashscreen": {
 			"alwaysShowBeforeRender": true,
 			"waiting": true,
 			"autoclose": true,
 			"delay": 0
 		},
-        /* 模块配置 */
-		"modules": {
+		"modules": { /* 模块配置 */
 
 		},
-        /* 应用发布信息 */
-		"distribute": {
-            /* android打包配置 */
-			"android": {
+		"distribute": { /* 应用发布信息 */
+			"android": { /* android打包配置 */
 				"permissions": ["<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
 					"<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
 					"<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
@@ -47,35 +42,34 @@
 					"<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
 				]
 			},
-            /* ios打包配置 */
-			"ios": {
+			"ios": { /* ios打包配置 */
 
 			},
-            /* SDK配置 */
-			"sdkConfigs": {
+			"sdkConfigs": { /* SDK配置 */
 
 			}
 		}
 	},
-    /* 快应用特有相关 */
-	"quickapp": {
+	"quickapp": { /* 快应用特有相关 */
 
 	},
-    /* 小程序特有相关 */
-	"mp-weixin": {
-		"appid": "",
+	"mp-weixin": { /* 微信小程序特有相关 */
+		"appid": "wx445781b3c35d5312",
 		"setting": {
 			"urlCheck": false
 		},
 		"usingComponents": true
 	},
-    "mp-alipay" : {
+	"mp-alipay" : {
         "usingComponents" : true
     },
     "mp-baidu" : {
         "usingComponents" : true
     },
     "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "mp-qq" : {
         "usingComponents" : true
     }
 }
